@@ -36,3 +36,11 @@ flutter test
 - Other games beyond Bingo
 
 No dependencies beyond the Flutter SDK are used.
+
+## Open in Firebase Studio
+
+1. Go to https://studio.firebase.google.com and sign in with your Google account.
+2. Choose **Import a repo** and paste `https://github.com/razashaikh0/Vibely-Claude-flutter-`.
+3. Once the workspace opens, run `flutter pub get` in the terminal, then `flutter run` or `flutter test`.
+
+Backend (Firebase Auth / Firestore) is not connected yet. The app uses mock data from `lib/data/mock_data.dart`.
